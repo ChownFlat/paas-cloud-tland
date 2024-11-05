@@ -50,7 +50,7 @@
 ## 技术栈
 ![idea9](https://raw.githubusercontent.com/thestar111/study/master/images/idea9.jpg)
 
-## 泰国AIS游戏运营项目工程结构
+## 游戏运营项目工程结构
 ```
 ├─paas-cloud-tland
 │  │
@@ -178,9 +178,9 @@ paas-cloud-gateway  |服务网关    |Tomcat|tland-api-gateway      |28040|--|--
 ###### 所有部件的包名称命名必须按照统一格式要求而且必须都是全小写，不能采用驼峰式规则来命名包名称，不然每个人都有自己的一套命名习惯; 如：
 **com.公司名.局点名.部件名.模块名.功能名**
 
-- **com.quanteng.tland**  ----所有包命名统一前缀
+- **com.qt.tland**  ----所有包命名统一前缀
 - **com** 				  -- 代表闭源(org 代表开源)
-- **quanteng**            -- 公司名称
+- **qt**            -- 公司名称
 - **tland**               -- 局点名称
 
 ###### 项目命名与模块命名规范
